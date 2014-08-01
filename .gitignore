@@ -13,7 +13,6 @@ xcuserdata
 profile
 *.moved-aside
 .DS_Store
-Agogo/.DS_Store
 .
 .idea/*
 !.idea/codeStyleSettings.xml
@@ -21,4 +20,5 @@ Agogo/.DS_Store
 Swiftagram.xcworkspace
 Pods/
 Podfile.lock
-Swiftagram/Secrets.swift
+Swiftagram/Managers/Secrets.swift
+
