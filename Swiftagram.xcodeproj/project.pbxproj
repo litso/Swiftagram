@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AED945E1DFB74E07A47D6688 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 096B73BFE9B24FB7B1C549FC /* libPods.a */; };
+		AF452410198DAB7E007488C6 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF45240F198DAB7E007488C6 /* Wrapper.swift */; };
+		AF452411198DAB7E007488C6 /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF45240F198DAB7E007488C6 /* Wrapper.swift */; };
+		AF452413198DACAF007488C6 /* WrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF452412198DACAF007488C6 /* WrapperTests.swift */; };
+		AF46F360198ECC1C008BE02F /* 200.json in Resources */ = {isa = PBXBuildFile; fileRef = AF46F35F198ECC1C008BE02F /* 200.json */; };
+		AF46F364198ECD72008BE02F /* ResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF46F363198ECD72008BE02F /* ResponseTests.swift */; };
 		AF5BEB0C1988B71800975D17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5BEB0B1988B71800975D17 /* AppDelegate.swift */; };
 		AF5BEB111988B71800975D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5BEB0F1988B71800975D17 /* Main.storyboard */; };
 		AF5BEB131988B71800975D17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5BEB121988B71800975D17 /* Images.xcassets */; };
-		AF5BEB1F1988B71800975D17 /* SwiftagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5BEB1E1988B71800975D17 /* SwiftagramTests.swift */; };
 		AF5BEB2F1988C9BA00975D17 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5BEB2E1988C9BA00975D17 /* PhotoTableViewController.swift */; };
 		AF5BEB311988CA0000975D17 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5BEB301988CA0000975D17 /* PhotoTableViewCell.swift */; };
 		AF5BEB341988CDC600975D17 /* ISImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5BEB331988CDC600975D17 /* ISImage.m */; };
@@ -21,6 +25,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AF452414198DAE6D007488C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5BEAFE1988B71800975D17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5BEB051988B71800975D17;
+			remoteInfo = Swiftagram;
+		};
+		AF452416198DAE6D007488C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5BEAFE1988B71800975D17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5BEB051988B71800975D17;
+			remoteInfo = Swiftagram;
+		};
+		AF452418198DAE77007488C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5BEAFE1988B71800975D17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5BEB051988B71800975D17;
+			remoteInfo = Swiftagram;
+		};
+		AF46F365198ED637008BE02F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF5BEAFE1988B71800975D17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF5BEB051988B71800975D17;
+			remoteInfo = Swiftagram;
+		};
 		AF5BEB191988B71800975D17 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AF5BEAFE1988B71800975D17 /* Project object */;
@@ -33,6 +65,10 @@
 /* Begin PBXFileReference section */
 		096B73BFE9B24FB7B1C549FC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		506AAEEAA89D4FC9B3F4DC93 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AF45240F198DAB7E007488C6 /* Wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Wrapper.swift; path = Utilities/Wrapper.swift; sourceTree = "<group>"; };
+		AF452412198DACAF007488C6 /* WrapperTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrapperTests.swift; sourceTree = "<group>"; };
+		AF46F35F198ECC1C008BE02F /* 200.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 200.json; sourceTree = "<group>"; };
+		AF46F363198ECD72008BE02F /* ResponseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseTests.swift; sourceTree = "<group>"; };
 		AF5BEB061988B71800975D17 /* Swiftagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5BEB0A1988B71800975D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF5BEB0B1988B71800975D17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +76,6 @@
 		AF5BEB121988B71800975D17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AF5BEB181988B71800975D17 /* SwiftagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5BEB1D1988B71800975D17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF5BEB1E1988B71800975D17 /* SwiftagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftagramTests.swift; sourceTree = "<group>"; };
 		AF5BEB2E1988C9BA00975D17 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoTableViewController.swift; path = ViewControllers/PhotoTableViewController.swift; sourceTree = "<group>"; };
 		AF5BEB301988CA0000975D17 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoTableViewCell.swift; path = Views/PhotoTableViewCell.swift; sourceTree = "<group>"; };
 		AF5BEB321988CDC600975D17 /* ISImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISImage.h; path = Models/ISImage.h; sourceTree = "<group>"; };
@@ -78,6 +113,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AF45240E198DAB60007488C6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AF45240F198DAB7E007488C6 /* Wrapper.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
 		AF5BEAFD1988B71800975D17 = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +150,10 @@
 				AF5BEB281988C42A00975D17 /* Managers */,
 				AF5BEB291988C43100975D17 /* Models */,
 				AF5BEB091988B71800975D17 /* Supporting Files */,
+				AFE8CCBA198C3BBA006F32E5 /* Swiftagram-Bridging-Header.h */,
+				AF45240E198DAB60007488C6 /* Utilities */,
 				AF5BEB2D1988C8B100975D17 /* ViewControllers */,
 				AF5BEB2A1988C45100975D17 /* Views */,
-				AFE8CCBA198C3BBA006F32E5 /* Swiftagram-Bridging-Header.h */,
 			);
 			path = Swiftagram;
 			sourceTree = "<group>";
@@ -125,8 +169,9 @@
 		AF5BEB1B1988B71800975D17 /* SwiftagramTests */ = {
 			isa = PBXGroup;
 			children = (
-				AF5BEB1E1988B71800975D17 /* SwiftagramTests.swift */,
 				AF5BEB1C1988B71800975D17 /* Supporting Files */,
+				AF452412198DACAF007488C6 /* WrapperTests.swift */,
+				AF46F363198ECD72008BE02F /* ResponseTests.swift */,
 			);
 			path = SwiftagramTests;
 			sourceTree = "<group>";
@@ -134,6 +179,7 @@
 		AF5BEB1C1988B71800975D17 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF46F35F198ECC1C008BE02F /* 200.json */,
 				AF5BEB1D1988B71800975D17 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -209,6 +255,10 @@
 			);
 			dependencies = (
 				AF5BEB1A1988B71800975D17 /* PBXTargetDependency */,
+				AF452415198DAE6D007488C6 /* PBXTargetDependency */,
+				AF452417198DAE6D007488C6 /* PBXTargetDependency */,
+				AF452419198DAE77007488C6 /* PBXTargetDependency */,
+				AF46F366198ED637008BE02F /* PBXTargetDependency */,
 			);
 			name = SwiftagramTests;
 			productName = SwiftagramTests;
@@ -266,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF46F360198ECC1C008BE02F /* 200.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +394,7 @@
 				AFE8CCBC198C506B006F32E5 /* Secrets.swift in Sources */,
 				AF5BEB311988CA0000975D17 /* PhotoTableViewCell.swift in Sources */,
 				AFE8CCB9198C3B65006F32E5 /* HttpClient.swift in Sources */,
+				AF452410198DAB7E007488C6 /* Wrapper.swift in Sources */,
 				AF5BEB0C1988B71800975D17 /* AppDelegate.swift in Sources */,
 				AF5BEB2F1988C9BA00975D17 /* PhotoTableViewController.swift in Sources */,
 			);
@@ -352,13 +404,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF5BEB1F1988B71800975D17 /* SwiftagramTests.swift in Sources */,
+				AF452411198DAB7E007488C6 /* Wrapper.swift in Sources */,
+				AF46F364198ECD72008BE02F /* ResponseTests.swift in Sources */,
+				AF452413198DACAF007488C6 /* WrapperTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AF452415198DAE6D007488C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5BEB051988B71800975D17 /* Swiftagram */;
+			targetProxy = AF452414198DAE6D007488C6 /* PBXContainerItemProxy */;
+		};
+		AF452417198DAE6D007488C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5BEB051988B71800975D17 /* Swiftagram */;
+			targetProxy = AF452416198DAE6D007488C6 /* PBXContainerItemProxy */;
+		};
+		AF452419198DAE77007488C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5BEB051988B71800975D17 /* Swiftagram */;
+			targetProxy = AF452418198DAE77007488C6 /* PBXContainerItemProxy */;
+		};
+		AF46F366198ED637008BE02F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF5BEB051988B71800975D17 /* Swiftagram */;
+			targetProxy = AF46F365198ED637008BE02F /* PBXContainerItemProxy */;
+		};
 		AF5BEB1A1988B71800975D17 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AF5BEB051988B71800975D17 /* Swiftagram */;

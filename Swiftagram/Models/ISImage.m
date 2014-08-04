@@ -42,7 +42,7 @@
                 }
             }
         }
-        NSString* url = jsonImage[@"images"][@"low_resolution"][@"url"];
+        NSString* url = jsonImage[@"images"][@"standard_resolution"][@"url"];
         NSString* caption = nil;
         
         if (jsonImage[@"caption"] && jsonImage[@"caption"][@"text"])

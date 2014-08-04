@@ -10,6 +10,7 @@ import UIKit
 
 class PhotoTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var photoImageView: UIImageView!
     init(style: UITableViewCellStyle, reuseIdentifier: String) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         // Initialization code

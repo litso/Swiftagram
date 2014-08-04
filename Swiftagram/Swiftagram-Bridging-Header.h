@@ -8,3 +8,4 @@
 
 #import "AFHTTPSessionManager.h"
 #import "ISImage.h"
+#import "UIImageView+AFNetworking.h"
